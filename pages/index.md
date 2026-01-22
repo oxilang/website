@@ -20,10 +20,7 @@ features:
   - title: Blazingly fast
     icon: 🔥
     details: Oxi has a tiny runtime and compiles to native machine code.
-  - title: Blazingly fast
-    icon: 🔥
-    details: Oxi has a tiny runtime and compiles to native machine code.
-  - title: Blazingly fast
-    icon: 🔥
-    details: Oxi has a tiny runtime and compiles to native machine code.
+  - title: C Interoperability
+    icon: 🛠️
+    details: Oxi supports importing C headers and calling C functions without any additional setup.
 ---
