@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Oxi",
   description: "Modern systems programming language",
-  head: [["link", { rel: "icon", href: "/oxi_logo_white.png" }]],
+  head: [["link", { rel: "icon", href: "/oxi_logo_white.webp" }]],
   themeConfig: {
     nav: [{ text: "Documentation", link: "/docs/" }],
     socialLinks: [{ icon: "github", link: "https://github.com/septechx/oxi" }],
