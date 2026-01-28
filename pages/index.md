@@ -7,7 +7,7 @@ description: Modern systems programming language
 hero:
   name: Oxi
   text: Modern systems programming language
-  image: oxi_logo_white.webp
+  image: oxi_logo.png
   actions:
     - theme: brand
       text: Get Started
