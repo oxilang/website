@@ -1,7 +1,7 @@
 import posthog from "posthog-js";
-import "./custom.css";
 import { EnhanceAppContext } from "vitepress";
 import DefaultTheme from "vitepress/theme";
+import "./custom.css";
 
 export default {
   ...DefaultTheme,
