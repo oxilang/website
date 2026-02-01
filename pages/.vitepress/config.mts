@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Oxi",
   description: "Modern systems programming language",
   head: [
-    ["link", { rel: "icon", href: "/oxi_logo.png" }],
+    ["link", { rel: "icon", href: "/oxi_logo.avif" }],
 
     // Open graph
     ["meta", { property: "og:url", content: "https://oxilang.siesque.com/" }],
@@ -21,7 +21,7 @@ export default defineConfig({
         content: "Modern systems programming language",
       },
     ],
-    ["meta", { property: "og:image", content: "/oxi_logo.png" }],
+    ["meta", { property: "og:image", content: "/oxi_logo.avif" }],
 
     // Twitter
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
@@ -41,9 +41,10 @@ export default defineConfig({
         content: "Modern systems programming language",
       },
     ],
-    ["meta", { name: "twitter:image", content: "/oxi_logo.png" }],
+    ["meta", { name: "twitter:image", content: "/oxi_logo.avif" }],
   ],
   themeConfig: {
+    logo: { src: "/oxi_logo.avif", width: 24, height: 24 },
     nav: [{ text: "Documentation", link: "/docs/" }],
     socialLinks: [{ icon: "github", link: "https://github.com/septechx/oxi" }],
     sidebar: [
@@ -55,6 +56,9 @@ export default defineConfig({
         ],
       },
     ],
+    search: {
+      provider: "local",
+    },
   },
   sitemap: {
     hostname: "https://oxilang.siesque.com",

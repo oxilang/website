@@ -6,8 +6,10 @@ description: Modern systems programming language
 
 hero:
   name: Oxi
-  text: Modern systems programming language
-  image: oxi_logo.png
+  tagline: Modern systems programming language for efficient software
+  image:
+    src: oxi_logo.avif
+    alt: Oxi icon
   actions:
     - theme: brand
       text: Get Started
@@ -22,5 +24,8 @@ features:
     details: Oxi has a tiny runtime and compiles to native machine code.
   - title: C Interoperability
     icon: 🛠️
-    details: Oxi supports importing C headers and calling C functions without any additional setup.
+    details: Oxi has native support for importing C headers as modules.
+  - title: Strongly typed
+    icon: 🎯
+    details: Oxi catches entire categories of bugs at compile time with expressive static types.
 ---
